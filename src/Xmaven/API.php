@@ -24,7 +24,6 @@ class API {
     $request->setHeader('USERID', $this->userId);
     $request->setHeader('APIKEY', $this->privateKey);
     $request->setHeader('ACCOUNTID', $this->accountId);
-    $request->setHeader('CONTENT-TYPE', 'application/json');
     $query = $request->getQuery();
     foreach($queryParams as $k => $v){
       $query->set($k, $v);
