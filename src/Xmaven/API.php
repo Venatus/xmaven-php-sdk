@@ -47,7 +47,7 @@ class API {
     if(is_array($json) && isset($json['error']) && is_string($json['error'])){
       throw new \Xmaven\Exception($json['error']);
     }
-    throw new \Xmaven\Exception('Recieved a bad response');
+    throw new \Xmaven\Exception('Received a bad response');
   }
   
 }
