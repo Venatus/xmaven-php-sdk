@@ -1,0 +1,11 @@
+<phpunit backupGlobals="false" backupStaticAttributes="false" colors="true" convertErrorsToExceptions="true" convertNoticesToExceptions="true" convertWarningsToExceptions="true" processIsolation="false" stopOnFailure="true" syntaxCheck="false" testSuiteLoaderClass="PHPUnit_Runner_StandardTestSuiteLoader">
+  <testsuites>
+		<testsuite name="SDK Tests">
+      <directory>Xmaven</directory>
+		</testsuite>
+	</testsuites>
+  <php>
+    <const name="XMAVEN_API_USER_ID" value="54ae73296803fa3a048b456d"/>
+    <const name="XMAVEN_API_KEY" value="HA6afa6abff0bad386c67b96ee632a61f3e6d4808b9"/>
+  </php>
+</phpunit>
