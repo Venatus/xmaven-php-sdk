@@ -1,7 +1,6 @@
 <?php
 
-class XmavenSDKTestCase extends \PHPUnit_Framework_TestCase
-{
+class XmavenSDKTestCase extends \PHPUnit_Framework_TestCase {
 	protected static $api = null;
 
   public static function setUpBeforeClass() {

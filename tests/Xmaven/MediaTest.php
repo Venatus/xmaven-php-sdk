@@ -1,8 +1,7 @@
 <?php
 require_once __DIR__.'/../XmavenSDKTestCase.class.php';
 
-class MediaTest extends XmavenSDKTestCase
-{
+class MediaTest extends XmavenSDKTestCase {
   protected $testTitle;
   protected $testDescription;
   protected $testTags;
